@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/FreKotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/FreKotlin.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/FreKotlin.library.iml" filepath="$PROJECT_DIR$/.idea/modules/library/FreKotlin.library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/FreKotlin.library.main.iml" filepath="$PROJECT_DIR$/.idea/modules/library/FreKotlin.library.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/FreKotlin.library.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/library/FreKotlin.library.unitTest.iml" />
     </modules>
   </component>
 </project>

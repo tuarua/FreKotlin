@@ -1,13 +1,11 @@
 buildscript {
-    ext.kotlin_version = '1.6.10'
-    ext.dokka_version = '0.10.1'
+    ext.kotlin_version = '1.7.21'
     repositories {
         google()
         mavenCentral()
-        jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.1.3'
+        classpath 'com.android.tools.build:gradle:7.1.3'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
@@ -15,7 +13,6 @@ buildscript {
 allprojects {
     repositories {
         google()
-        jcenter()
         maven { url "https://jitpack.io" }
         mavenCentral()
     }
@@ -26,14 +23,14 @@ task clean(type: Delete) {
 }
 
 ext {
-    targetSdkVersion = 29
+    targetSdkVersion = 31
     minSdkVersion = 19
     compileSdkVersion = targetSdkVersion
-    buildToolsVersion = '29.0.3'
+    buildToolsVersion = '31.0.0'
 
     // FreKotlin Library Info
     libVersionCode = 1
-    libVersionName = '1.61.0'
+    libVersionName = '1.7.21'
     libMavenGroupId = 'com.github.tuarua'
     libMavenArtifactId = 'FreKotlin'
 }
