@@ -30,7 +30,7 @@ ext {
 
     // FreKotlin Library Info
     libVersionCode = 1
-    libVersionName = '1.7.21'
+    libVersionName = '1.72.1'
     libMavenGroupId = 'com.github.tuarua'
     libMavenArtifactId = 'FreKotlin'
 }
